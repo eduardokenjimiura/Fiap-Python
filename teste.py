@@ -11,6 +11,3 @@ print(df.sort_values(by=['averageofconsume']))
  
 #quanto maior o horse power, menor o consumo para um range de volume parecido 
 #maior sera o preco do carro.
-
-
-
