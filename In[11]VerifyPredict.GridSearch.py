@@ -12,7 +12,6 @@ from sklearn.model_selection import GridSearchCV
 # variaveis preditoreas fazer grafico verificando o comportamento, analise de correlacao => atributo preditor
 
 
-
 def SplitSubset(df, column_namePredict, feature_col_names):
     x = df[feature_col_names].values
     y = df[column_namePredict].values
