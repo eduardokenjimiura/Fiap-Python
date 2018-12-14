@@ -1,11 +1,11 @@
-
+ 
 #Crie subsets de treinamento e teste utilizado uma razao adequada de tamanho. Utilze o train_test_split passando como parametros
 
 
 from sklearn.model_selection import train_test_split
 import pandas as pd 
 import sys
-#variaveis preditoreas fazer grafico verificando o comportamento, analise de correlacao => atributo preditor
+#variaveis preditoreas fazer grafico verificando o comportamento, analise de correlacao    fd => atributo preditor
 def SplitSubset(df,column_name):
     y = df[column_name].values #column of predict, in this case price.
     x = df.drop(column_name, axis=1).values
