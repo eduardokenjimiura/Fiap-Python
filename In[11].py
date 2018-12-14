@@ -1,3 +1,4 @@
+
 #Crie subsets de treinamento e teste utilizado uma razao adequada de tamanho. Utilze o train_test_split passando como parametros
 from sklearn.model_selection import train_test_split
 import pandas as pd 
@@ -22,3 +23,4 @@ def main(argv):
 
 if __name__ == "__main__":
     main(sys.argv) 
+
