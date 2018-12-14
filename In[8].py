@@ -2,6 +2,7 @@ import numpy as np
 import pandas as pd 
 import sys
  
+ 
 def identificacao_outlier(df,column_name):
     print(column_name)
     #values of first quartiles
