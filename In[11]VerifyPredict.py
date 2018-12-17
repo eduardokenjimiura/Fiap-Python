@@ -8,7 +8,7 @@ from sklearn import linear_model
 from sklearn import tree
 
 
-# variaveis preditoreas fazer grafico verificando o comportamento, analise de correlacao => atributo preditor
+# v    ariaveis preditoreas fazer grafico verificando o comportamento, analise de correlacao => atributo preditor
 
 
 def SplitSubset(df, column_namePredict, feature_col_names):
