@@ -1,5 +1,6 @@
 import pandas as pd 
 import numpy as np
+
 df = pd.read_csv('automobile-mod.csv' , sep=';', header=None)
 #df.loc[:, df.isna().any()]
 #res = df.apply(lambda x: x.fillna("") if x. in 'biufc' else x.fillna('.'))
