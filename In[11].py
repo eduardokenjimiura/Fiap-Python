@@ -13,6 +13,7 @@ def SplitSubset(df,column_name):
 
 
 
+
 def main(argv):
     dataset = pd.read_csv('automobile-mod.csv' , sep=';' )
     dataset.head(20)
