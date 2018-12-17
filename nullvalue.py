@@ -7,6 +7,7 @@ df = pd.read_csv('automobile-mod.csv' , sep=';', header=None)
 df.loc[:, [0,1]] = df.loc[:, [0,1]].fillna("")#trplcce na coluna esecifica 
 print(df.columns[df.isna().any()].tolist())
 
+
 #print(df.isnull().any())
 #zdf[''] = df[''].fillna(0, inplace=True) 
 #print(df.select_dtypes(include=['float64']))

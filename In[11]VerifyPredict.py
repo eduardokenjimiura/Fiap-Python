@@ -7,6 +7,7 @@ from sklearn.metrics import mean_squared_error, r2_score
 from sklearn import linear_model
 from sklearn import tree
 
+
 # variaveis preditoreas fazer grafico verificando o comportamento, analise de correlacao => atributo preditor
 
 
