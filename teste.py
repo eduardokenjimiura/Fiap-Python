@@ -13,3 +13,4 @@ print(df.sort_values(by=['averageofconsume']))
 #maior sera o preco do carro.
 
 
+
